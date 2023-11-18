@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    line-height: 1.25;
+    letter-spacing: 10px;
+    color: hsl(205, 86%, 17%);
+    font-size: 32px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    background: hsl(210, 36%, 96%);
+    color: hsl(205, 86%, 17%); 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;  
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.amount{
+    justify-content: center;
+    align-items: center;
+    
+}
+.lorem{
+    text-transform: capitalize;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 10px;
+}
+label{
+    font-size: 30px;
+    color: hsl(205, 86%, 17%);
+}
+input{
+    padding: 2px 2px;
+    width: 50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin: 0 8px;
+    color: hsl(210, 36%, 96%);
+    background: hsl(205, 86%, 17%);
+}
+#range{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    background: hsl(205, 86%, 17%);
+    color: hsl(210, 36%, 96%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #222;
+}
